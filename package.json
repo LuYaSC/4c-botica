@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --configuration production --base-href 'https://luyasc.github.io/4c-botica/'"
+    "deploy": "ng build --configuration production --base-href 'https://luyasc.github.io/4c-botica/' && gh-pages -d dist/botica-webapp"
   },
   "private": true,
   "dependencies": {
