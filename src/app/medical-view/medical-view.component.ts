@@ -20,7 +20,7 @@ export class MedicalViewComponent implements OnInit {
       case 1:
         this.medicament = {
           url: 'assets/images/botica/abrazofeno.png',
-          name: "Abrazofeno",
+          name: "Abrazofeno22",
           description: "Abrazoprofeno es un elixir diseñado para fortalecer la conexión emocional y tender puentes en la comunicación familiar. Especialmente formulado para momentos donde el silencio se vuelve ensordecedor y el corazón anhela cercanía. Cada dosis lleva consigo la promesa de un abrazo sincero y la dulzura de un amor inquebrantable.",
           esp: [{
             name: "Indicaciones",
