@@ -1,4 +1,5 @@
 <div class="site-section">
+
   <div class="container">
     <div class="row">
       <div class="col-md-5 mr-auto">
@@ -33,8 +34,8 @@
             </div>
           </div>
 
-        </div>
-        <p><a href="cart.html" class="buy-now btn btn-sm height-auto px-4 py-3 btn-primary">Add To Cart</a></p-->
+        </div-->
+        <p><button class="buy-now btn btn-sm height-auto px-4 py-3 btn-primary" (click)="buy()">Comprar</button></p>
 
         <div class="mt-5">
           <ul
@@ -135,5 +136,20 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+
+    <!-- Primer botón -->
+    <div class="col-12 col-md-6 text-md-left text-center mb-2 mb-md-0">
+      <button class="btn btn-primary px-5 py-3" (click)="refreshPage()">Inicio</button>
+    </div>
+
+    <!-- Segundo botón -->
+    <div class="col-12 col-md-6 text-md-right text-center">
+      <a routerLink="/store" class="btn btn-primary px-5 py-3">Tienda</a>
+    </div>
+
   </div>
 </div>

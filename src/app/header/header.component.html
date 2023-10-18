@@ -1,7 +1,7 @@
 <div class="site-navbar py-2 navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
 
-    <a href="#" class="navbar-brand">RESPETONIC</a>
+    <a class="navbar-brand" (click)="refreshPage()">RESPETONIC</a>
 
     <!-- Botón de menú para pantallas pequeñas -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,7 +12,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" routerLink="/">Inicio</a>
+          <a class="nav-link" (click)="refreshPage()">Inicio</a>
         </li>
         <li class="nav-item" routerLinkActive="active">
           <a class="nav-link" routerLink="/store">Tienda</a>

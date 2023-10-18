@@ -75,18 +75,20 @@
     <div class="row">
       <div class="col-sm-6 col-lg-4 text-center item mb-4">
         <span class="tag">Sale</span>
-        <a href="shop-single.html">
+        <a [routerLink]="['/medical-view', 1]">
           <img
             src="assets/images/botica/abrazofeno.png"
             alt="Image"
             class="resized-image"
           />
         </a>
-        <h3 class="text-dark"><a href="shop-single.html">ABRAZOFENO</a></h3>
+        <h3 class="text-dark">
+          <a [routerLink]="['/medical-view', 1]">ABRAZOFENO</a>
+        </h3>
       </div>
       <div class="col-sm-6 col-lg-4 text-center item mb-4">
         <span class="tag">Sale</span>
-        <a href="shop-single.html">
+        <a [routerLink]="['/medical-view', 3]">
           <img
             src="assets/images/botica/Resci.png"
             alt="Image"
@@ -94,25 +96,27 @@
           />
         </a>
         <h3 class="text-dark">
-          <a href="shop-single.html">RESCILIENCIA-PIRINA</a>
+          <a [routerLink]="['/medical-view', 3]">RESILIENCIA-PIRINA</a>
         </h3>
       </div>
       <div class="col-sm-6 col-lg-4 text-center item mb-4">
         <span class="tag">Sale</span>
-        <a href="shop-single.html">
+        <a [routerLink]="['/medical-view', 7]">
           <img
             src="assets/images/botica/dialogadol.png"
             alt="Image"
             class="resized-image"
           />
         </a>
-        <h3 class="text-dark"><a href="shop-single.html">Poo Pourri</a></h3>
+        <h3 class="text-dark">
+          <a [routerLink]="['/medical-view', 7]">DIALOGADOL</a>
+        </h3>
       </div>
     </div>
     <div class="row mt-5">
       <div class="col-12 text-center">
         <a routerLink="/store" class="btn btn-primary px-4 py-3"
-          >View All Products</a
+          >Ver todos los productos</a
         >
       </div>
     </div>
@@ -130,7 +134,7 @@
       <div class="col-md-12 block-3 products-wrap">
         <div class="nonloop-block-3 owl-carousel">
           <div class="text-center item mb-4">
-            <a href="shop-single.html">
+            <a [routerLink]="['/medical-view', 5]">
               <img
                 src="assets/images/botica/comunicatex.png"
                 alt="Image"
@@ -138,12 +142,12 @@
               />
             </a>
             <h3 class="text-dark">
-              <a href="shop-single.html">Umcka Cold Care</a>
+              <a [routerLink]="['/medical-view', 5]">COMUNICATEX</a>
             </h3>
           </div>
 
           <div class="text-center item mb-4">
-            <a href="shop-single.html">
+            <a [routerLink]="['/medical-view', 4]">
               <img
                 src="assets/images/botica/ecuani.png"
                 alt="Image"
@@ -151,12 +155,12 @@
               />
             </a>
             <h3 class="text-dark">
-              <a href="shop-single.html">Umcka Cold Care</a>
+              <a [routerLink]="['/medical-view', 4]">ECUANIMEDIPINO</a>
             </h3>
           </div>
 
           <div class="text-center item mb-4">
-            <a href="shop-single.html">
+            <a [routerLink]="['/medical-view', 6]">
               <img
                 src="assets/images/botica/empatiag.png"
                 alt="Image"
@@ -164,22 +168,21 @@
               />
             </a>
             <h3 class="text-dark">
-              <a href="shop-single.html">Umcka Cold Care</a>
+              <a [routerLink]="['/medical-view', 6]">EMPATIA-G</a>
             </h3>
           </div>
 
           <div class="text-center item mb-4">
-            <a href="shop-single.html">
+            <a [routerLink]="['/medical-view', 7]">
               <img
-                src="assets/images/botica/abrazofeno.png"
+                src="assets/images/botica/dialogadol.png"
                 alt="Image"
                 class="resized-image"
               />
             </a>
             <h3 class="text-dark">
-              <a href="shop-single.html">Umcka Cold Care</a>
+              <a [routerLink]="['/medical-view', 7]">DIALOGADOL</a>
             </h3>
-            <p class="price">$120.00</p>
           </div>
         </div>
       </div>
@@ -200,7 +203,7 @@
           <div class="testimony">
             <blockquote>
               <img
-                src="assets/images/person_1.jpg"
+                src="assets/images/botica/luis.jpeg"
                 alt="Image"
                 class="img-fluid w-25 mb-4 rounded-circle"
               />
@@ -219,7 +222,7 @@
           <div class="testimony">
             <blockquote>
               <img
-                src="assets/images/person_2.jpg"
+                src="assets/images/botica/miguel.jpg"
                 alt="Image"
                 class="img-fluid w-25 mb-4 rounded-circle"
               />
@@ -238,7 +241,7 @@
           <div class="testimony">
             <blockquote>
               <img
-                src="assets/images/person_3.jpg"
+                src="assets/images/botica/elena.jpg"
                 alt="Image"
                 class="img-fluid w-25 mb-4 rounded-circle"
               />
@@ -256,7 +259,7 @@
           <div class="testimony">
             <blockquote>
               <img
-                src="assets/images/person_4.jpg"
+                src="assets/images/botica/isabel.jpeg"
                 alt="Image"
                 class="img-fluid w-25 mb-4 rounded-circle"
               />
