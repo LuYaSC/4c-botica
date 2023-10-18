@@ -1,48 +1,40 @@
-<div class="site-navbar py-2">
-
+<div class="site-navbar py-2 navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <div class="d-flex align-items-center justify-content-between">
-      <div class="logo">
-        <div class="site-logo">
-          <a href="#" class="js-logo-clone">RESPETONIC</a>
-        </div>
-      </div>
-      <div class="main-nav d-none d-lg-block">
-        <nav class="site-navigation text-right text-md-center" role="navigation">
-          <ul class="site-menu js-clone-nav d-none d-lg-block">
-            <li routerLinkActive="active"><a routerLink="/">Inicio</a></li>
-            <li routerLinkActive="active"><a routerLink="/store">Tienda</a></li>
-            <li class="has-children" routerLinkActive="active">
-              <a>Acerca de Nosotros</a>
-              <ul class="dropdown">
-                <li><a routerLink="/vision">Vision</a></li>
-                <!--li class="has-children">
-                  <a routerLink="/vitamins">Vitamins</a>
-                  <ul class="dropdown">
-                    <li><a routerLink="/supplements">Supplements</a></li>
-                    <li><a routerLink="/vitamins">Vitamins</a></li>
-                    <li><a routerLink="/diet-nutrition">Diet &amp; Nutrition</a></li>
-                    <li><a routerLink="/tea-coffee">Tea &amp; Coffee</a></li>
-                  </ul>
-                </li-->
-                <li><a routerLink="/mision">Mision</a></li>
-                <li><a routerLink="/about">Acerca de</a></li>
-              </ul>
-            </li>
-            <li routerLinkActive="active"><a routerLink="/faq">FAQ</a></li>
-            <li routerLinkActive="active"><a routerLink="/contact">Contacto</a></li>
-          </ul>
-        </nav>
-      </div>
-      <!--div class="icons">
-        <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
-        <a routerLink="/cart" class="icons-btn d-inline-block bag">
-          <span class="icon-shopping-bag"></span>
-          <span class="number">2</span>
-        </a>
-        <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
-            class="icon-menu"></span></a>
-      </div-->
+
+    <a href="#" class="navbar-brand">RESPETONIC</a>
+
+    <!-- Botón de menú para pantallas pequeñas -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menú -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/">Inicio</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/store">Tienda</a>
+        </li>
+        <li class="nav-item dropdown" routerLinkActive="active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Acerca de Nosotros
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" routerLink="/vision">Visión</a>
+            <a class="dropdown-item" routerLink="/mision">Misión</a>
+            <a class="dropdown-item" routerLink="/about">Acerca de</a>
+          </div>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/faq">FAQ</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/contact">Contacto</a>
+        </li>
+      </ul>
     </div>
+
   </div>
 </div>
